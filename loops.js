@@ -20,7 +20,7 @@ function maybeTrue() {
 
 function doWhileLoop(arr){
   do{
-    
-  }while(maybeTrue())
+    arr.pop();
+  }while(maybeTrue() || arr.is)
 }
 
